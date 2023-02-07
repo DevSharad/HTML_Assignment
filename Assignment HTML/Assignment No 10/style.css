@@ -1,0 +1,22 @@
+ul{
+   list-style: none;
+   
+}
+li{
+    float: left;
+    width: 200px;
+    height: 40px;
+   
+ 
+  
+  
+}
+a{
+    align-items: center;
+    text-decoration: none;
+}
+.li{
+  align-items: center;
+    padding-top: 20px;
+    padding-left: 0px;
+}

@@ -1,0 +1,57 @@
+ .head{
+    background-color: pink;
+    color: black;
+     height: 40px;
+      padding: 20px;
+      border-style: groove;
+    }
+.alink{
+     font-weight: bold;
+      text-decoration: none;
+     }
+li{ 
+        display: inline;
+        margin: 0 50px;
+    }
+.button{
+   background-color: black;
+   color: white;
+    }
+.container{
+    display:flex
+}   
+.box1{
+    height: 75vh;
+    width: 74vw;
+    background-color: white;
+    border-style: groove;
+} 
+.box2{
+    height: 75vh;
+    width: 25vw;
+    background-color: rgb(171, 74, 89);
+    border-style: groove;
+} 
+.title{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.aside{
+    line-height: 50px;
+    
+}
+.aside{
+    list-style-type: circle;
+}
+
+footer{
+    background-color: rgb(104, 105, 92);
+    height: 40px;
+    border-style: groove;
+}
+.p{
+    padding-left: 2vh;
+   
+}
