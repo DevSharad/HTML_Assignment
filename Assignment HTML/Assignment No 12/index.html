@@ -6,26 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment no 4</title>
+    <style>
+      body {
+        background-color: brown;
+      }
+      .title {
+        text-align: center;
+      }
+      .title h1 {
+        font-size: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .disc {
+        text-align: center;
+      }
+      .disc h2 {
+        font-size: 40px;
+      }
+      .main {
+        width: 90%;
+
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5px;
+      }
+      .box1,
+      .box2,
+      .box3 {
+        text-align: center;
+        background-color: white;
+        padding-bottom: 20px;
+      }
+    </style>
   </head>
   <body>
-    <h1>CONTENT BOX</h1>
-    <h2>With HTML & CSS</h2>
-    <section>
-      <section>
+    <div class="title"><h1>CONTENT BOX</h1></div>
+    <div class="disc"><h2>With HTML & CSS</h2></div>
+    <section class="main">
+      <section class="box1">
         <h3>heading</h3>
         <hr />
         <p>Content</p>
         <p>Paragraph</p>
         <button type="button">button</button>
       </section>
-      <section>
+      <section class="box2">
         <h3>heading</h3>
         <hr />
         <p>Content</p>
         <p>Paragraph</p>
         <button type="button">button</button>
       </section>
-      <section>
+      <section class="box3">
         <h3>heading</h3>
         <hr />
         <p>Content</p>

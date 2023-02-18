@@ -6,19 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment no 4-login</title>
+    <style>
+      body {
+        background-color: aquamarine;
+      }
+      .main {
+        width: 300px;
+        height: 350px;
+        background-color: white;
+        margin: auto;
+        margin-top: 100px;
+      }
+      .i1 {
+        background-color: rgb(36, 140, 105);
+        height: 100px;
+        padding-top: 1px;
+      }
+      .i1 h2 {
+        text-align: center;
+        align-items: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin: 40px 0px;
+      }
+      .email {
+        width: 70%;
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 30px;
+        padding-left: 20px;
+      }
+      .pass {
+        width: 70%;
+        height: 30px;
+        margin-left: 30px;
+        padding-left: 20px;
+        margin-bottom: 0px;
+      }
+      .p1 {
+        margin-top: 8px;
+        margin-left: 30px;
+        color: rgb(29, 122, 91);
+      }
+      .button {
+        width: 90%;
+        margin-left: 15px;
+        height: 40px;
+        color: white;
+        background-color: rgb(29, 122, 91);
+        margin-top: 0px;
+      }
+      p {
+        margin: 20px 50px;
+      }
+      p a {
+        text-decoration: none;
+        color: rgb(29, 122, 91);
+      }
+    </style>
   </head>
   <body>
-    <section>
-      <h2>Login Form</h2>
-    </section>
-    <section>
-      <input type="email" type="phone" placeholder="Email or Phone" />
-      <br />
-      <br />
-      <input type="password" placeholder="Password" />
-      <p>Forgot password?</p>
-      <button type="button">Login</button>
-      <p>Not a member? <a href="">Signup now</a></p>
-    </section>
+    <div class="main">
+      <div class="i1">
+        <h2>Login Form</h2>
+      </div>
+      <div class="i2">
+        <input
+          class="email"
+          type="email"
+          type="phone"
+          placeholder="Email or Phone"
+        />
+        <br />
+        <br />
+        <input class="pass" type="password" placeholder="Password" />
+        <p class="p1">Forgot password?</p>
+        <button class="button" type="button">Login</button>
+        <p>Not a member? <a href="">Signup now</a></p>
+      </div>
+    </div>
   </body>
 </html>
